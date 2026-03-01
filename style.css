@@ -376,11 +376,11 @@
 
             .clock:nth-child(4) {
                 &::before {
-                    transform: translateX(-50%) rotate(-90deg);
+                    transform: translateX(-50%) rotate(180deg);
                 }
 
                 &::after {
-                    transform: translateX(-50%) rotate(180deg);
+                    transform: translateX(-50%) rotate(-90deg);
                 }
             }
 
