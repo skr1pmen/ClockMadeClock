@@ -40,7 +40,7 @@
                 height: 45%;
                 background: #000;
                 position: absolute;
-                top: 5px;
+                top: 5%;
                 left: 50%;
                 transform: translateX(-50%) rotate(-125deg);
                 transform-origin: bottom center;
@@ -53,7 +53,7 @@
                 height: 45%;
                 background: #000000;
                 position: absolute;
-                top: 5px;
+                top: 5%;
                 left: 50%;
                 transform: translateX(-50%) rotate(-125deg);
                 transform-origin: bottom center;
@@ -629,7 +629,6 @@
         justify-content: space-evenly;
         align-items: center;
 
-
         &::before,&::after {
             content: "";
             width: 50%;
@@ -638,7 +637,6 @@
             border-radius: 50%;
             animation: dot 2s linear infinite;
         }
-
     }
 }
 
